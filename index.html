@@ -2,7 +2,7 @@
  <html lang="en" manifest="https://salmandascript.github.io/SMTechnology"/>
 <head>
 	
-	<title>SM Technology</title>
+	<title>SM Computer Engineering Technology</title>
 	
 	 <meta charset="UTF-8"/>
 	 
@@ -16,7 +16,7 @@
 
 <meta name="Author" content="Salmanda"/>
 
-<meta name="revised" content="Africa Online, 4/2/2024"/>
+<meta name="revised" content="SM Computer Engineering Technology, 4/2/2024"/>
  
   <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
     
@@ -34,6 +34,8 @@ content="noindex,nofollow"/>
   <link rel="icon" type="image" href="profiler1.png"/>
 	
 	 <link rel="stylesheet" href="Responsive.css" type="text/css"/>
+	 
+	 <link rel="stylesheet" href="bootstrap.min.css" type="text/css"/>
 
 
 
@@ -53,7 +55,7 @@ content="noindex,nofollow"/>
 
 [class*="col-"] {
     float: left;
-    padding: 15px;
+    padding: 18px;
 }
 
 
@@ -76,26 +78,12 @@ font-family:georgia;
     padding: 0;
 }
 
-
-.menu li {
-
-padding: 8px;
-margin-bottom: 7px;
-background-color :maroon;
-color: orange;
-box-shadow: 0 1px 3px rgba
-(0,0,0,0.12), 0 1px 2px 
-rgba(0,0,0,0.24);
-
-}
-
 .menu li:hover {
  background-color: teal;
 }
 
-
 .aside {
-    background-color: teal;
+background-color: teal;
 padding: 15px;
 color: orange;
 text-align: center;
@@ -105,7 +93,6 @@ box-shadow: 0 1px 3px rgba
 rgba(0,0,0,0.24);
 }
 
-
 .footer {
     background-color: maroon;
     color: orange;
@@ -114,12 +101,10 @@ rgba(0,0,0,0.24);
     padding: 15px;
 }
 
-
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
 }
-
 
 @media only screen and 
 (min-width:600px) {
@@ -138,7 +123,6 @@ rgba(0,0,0,0.24);
     .col-m-12 {width: 100%;}
 }
 
-
 @media only screen and 
 (min-width: 768px) {
     /* For desktop: */
@@ -156,14 +140,13 @@ rgba(0,0,0,0.24);
     .col-12 {width: 100%;}
 }
 
-
 .picture{
 height: 100px;
 width: 100px;
 border-radius: 150px;
 margin-left: 8px;
 margin-top: 4px;
-border: 3px solid #ddd;
+border: 2px solid #ddd;
 padding: 3px;
 }
 
@@ -180,7 +163,7 @@ ol{
 li {
 	background: linear-gradient(to right, teal, maroon);
 	border-radius: 6pt;
-	border: groove;
+	border: groove white 1pt;
 	padding: 6pt;
 }
 
@@ -188,10 +171,12 @@ span{
 	color: white;
 	background: orange;
 	border-radius: 4pt;
+	border: groove white 2pt;
 }
 
 a {
 font-style: italic;
+color: orange;
 }
 
 .img {
@@ -199,7 +184,7 @@ width: 60px;
 height: 60px;
 float : left;
 margin-top: 10pt;
-border: groove gray 4pt;
+border: groove gray 2pt;
 border-radius: 25pt;
 }
 
@@ -209,12 +194,17 @@ text-align: center;
 
 img{
 margin-top: 4pt;
-border: groove gray 4pt;
+border: groove gray 2pt;
 border-radius: 150pt;
+}
+
+button{
+color: White;
 }
 
 </style>
 </head>
+
 <body>
  <noscript>
 You will need to enable Javascript to run this programme.
@@ -246,10 +236,150 @@ You will need to enable Javascript to run this programme.
 <center><img width="300" height="300"
 	 	  src="profiler1.png" alt="SMTechnology Logo"/></center>
 
-<div class="col-6 col-m-9">
+<div class="col-6 col-m-12">
 	<div align="center">
         <details><p align="center" style="color:orange"><i>The Source Code for Profiler UI Component is available below for free download, help and support is available as well 24/7. l would like to hear from you, send me your views. And remember also to share the source code with others.</i></p></details></div>&nbsp;
         
+ <!--Application Form-->
+        <center><button onclick="saalmanda();" id="demoxa" 
+        style="border-color: white" type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#myModal">Tutorials Registration Form</button></center>
+      
+ <div id="myModal" class="modal fade" >
+<div class="modal-dialog; modal-sm"> 
+<div class="modal-content"> 
+<div class="modal-header"> 
+
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+<h5 style="text-align: center" class="modal-title">SM COMPUTER ENGINEERING TECHNOLOGY.</h5> 
+</div> 
+<div class="modal-body; level" style="color: gray; font-family:georgia; font-style:italic"> 
+
+
+<p>Tutorials Registration Form<br> 
+<strong>NOTE:</strong> Computer Basics is taught along the other subjects. <br>
+Programming mainly focuses on web development using HTML, CSS and Javascript. Also them interested in this subject can download the source code for Profiler User Interface component free, and start building a project without any basic knowledge, support as well is always available.</p> 
+<a href="https://salmandascript.github.io/ProfilerDocumentation"><span>📥 Download Source Code</span></a><hr>
+	
+	<p>Fill Your Details Below</p>
+	
+	<form method="POST" enctype="multipart/form-data" action="mailto:clementjuma.cmm@gmail.com" onsubmit="callback()" >
+<label><span>First Name:</span></label> <input type="text" name="fname" placeholder="Enter First Name" required/><br><br>
+	
+<label><span>Last Name:</span></label> <input type="text" name="lname" placeholder="Enter Last Name"  required/><br><br>
+	
+<label><span>Gender:</span></label> &nbsp; &nbsp; &nbsp; <input type="text" name="gender" placeholder="Enter your Gender" required/><br><br>
+	
+<label><span>Age:</span></label>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="number" name="age" placeholder="Enter your Age" required/><br><br>
+	
+<label><span>Location:</span></label> &nbsp; &nbsp; <input type="text" name="location" placeholder="Enter your Location" required/><br><br>
+	
+<label><span>Phone Number:</span></label> &nbsp; <input type="number" name="number" placeholder="Enter Phone Number" required/><br><br>
+	
+	<label><span>E-mail (Optional):</span></label> <input type="email" name="email" placeholder="Enter E-mail Address"/><br><br>
+	
+<label>Image (Optional): </label><br>
+<button style="border-color: white" type="button" class="btn btn-secondary btn-sm"><input type="file" name="image"/></button> <hr>
+		
+		<p>Select Subject</p>
+			
+		<input type="checkbox" name="checkbox1"/>Computer Basics<br>
+		
+			<input type="checkbox" name="checkbox2"/>Computer Literacy<br>
+			
+				<input type="checkbox" name="checkbox3"/>Computer Programming<br>
+				
+					<input type="checkbox" name="checkbox4"/>Computer Hardware Service<br>
+					
+						<input type="checkbox" name="checkbox5"
+						/>Computer Networks<br><br>
+							
+							<button style="border-color: white" type="button" class="btn btn-secondary btn-sm"><input type="reset"/></button>
+							
+			<button style="border-color: white" type="button" class="btn btn-secondary btn-sm"><input type="submit"/></button>
+</form>
+
+</div> 
+<div class="modal-footer"> 
+<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close &times;
+</button> 
+</div> 
+</div> 
+</div> 
+</div><br>
+<!--End Application Form-->
+
+ <!--Service Form-->
+        <center><button onclick="saaalmanda();" id="demoxaa" style="border-color: white" type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#myModal1">Services Purchase Form</button></center>
+      
+ <div id="myModal1" class="modal fade" >
+<div class="modal-dialog; modal-sm"> 
+<div class="modal-content"> 
+<div class="modal-header"> 
+
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+<h5 style="text-align: center" class="modal-title">SM COMPUTER ENGINEERING TECHNOLOGY.</h5> 
+</div> 
+<div class="modal-body; level" style="color: gray; font-family:georgia; font-style:italic
+"> 
+
+<p>Service Purchase Form<br> 
+<strong>NOTE:</strong>Are you having problems with your system, either Hardware or Software, or you want a software developer for your next project, then don't hesitate. Contact me a'm available 24/7 at your service.</p><hr>
+	
+	<p>Fill Your Details Below</p>
+	
+	<form method="POST" enctype="multipart/form-data" action="mailto:clementjuma.cmm@gmail.com" onsubmit="callback()" >
+<label><span>First Name:</span></label> <input type="text" name="fname" placeholder="Enter First Name" required/><br><br>
+	
+<label><span>Last Name:</span></label> <input type="text" name="lname" placeholder="Enter Last Name"  required/><br><br>
+	
+<label><span>Gender:</span></label> &nbsp; &nbsp; &nbsp; <input type="text" name="gender" placeholder="Enter your Gender" required/><br><br>
+	
+<label><span>Age:</span></label>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="number" name="age" placeholder="Enter your Age" required/><br><br>
+	
+<label><span>Location:</span></label> &nbsp; &nbsp; <input type="text" name="location" placeholder="Enter your Location" required/><br><br>
+	
+<label><span>Phone Number:</span></label> &nbsp; <input type="number" name="pnumber" placeholder="Enter Phone Number" required/><br><br>
+	
+	<label><span>E-mail (Optional):</span></label> <input type="email" name="email" placeholder="Enter E-mail Address"/><br><br>
+	
+<label>Image (Optional): </label>
+<br><button style="border-color: white" type="button" class="btn btn-secondary btn-sm">
+<input type="file" name="image"/></button> <hr>
+		
+		<p>Select the service you want</p>
+			
+		<input type="checkbox" name="checkbox1"/>Computer Hardware Service<br>
+		
+			<input type="checkbox" name="checkbox2"/>Computer Software Service<br>
+			
+				<input type="checkbox" name="checkbox3"/>Software Design and Development<br>
+				
+						<input type="checkbox" name="checkbox4"/>Computer Network and Security service<br><br>
+							
+<p>Explain your problem clearly below</p>
+
+<textarea id="area" style="background-color: gray; color: white; margin-left: 6pt"  rows='8' cols='40' name="TextArea" required="required">Type here
+ </textarea><br><br>
+							
+<button style="border-color: white" type="button" class="btn btn-secondary btn-sm"><input type="reset" value="Reset"/></button>
+							
+<button style="border-color: white" type="button" class="btn btn-secondary btn-sm"><input type="submit" value="Submit"/></button>
+</form>
+
+</div> 
+<div class="modal-footer"> 
+<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close &times;
+</button> 
+</div> 
+</div> 
+</div> 
+</div>
+<!--End Service Form-->
+
         <!--search input tag -->
 <h1>SERVICES </h1>
 <ol id = "myUL">&nbsp;
@@ -297,15 +427,56 @@ You will need to enable Javascript to run this programme.
 <a onclick ="notice();" href="Profiler2.zip" Download="Profiler2.zip"><span> 📥Download Profiler UI Component Source Code that add Videos.
 </span></a></i><br><br>
 
-<a onclick ="documentation();"><span> 📑 View or download Profiler UI Component Documentation.
-</span></a></i>
+<a onclick ="documentation();"><span> 📑 View or download Profiler UI Component Documentation.</span></a></i><br><br>
 
+<button onclick="africaOnline(); salmanda1 ();" id="demo1" style="border-color: white; background: orange" type="button" class="btn btn-sm">🏠 Back Home</button>
 
-<p></p>
+<!--Dropup menu-->
+<div class="btn-group dropup"> 
+<div class="btn-group"> 
+<button onclick="salmanda2();" id="demo2"
+ style="border-color: white; background: orange" type="button" data-toggle="dropdown" class="btn btn-warning dropdown-toggle btn-sm">📒 Option Menu</button> 
 
-<h2>Africa Online</h2>
-<p><a onclick="africaOnline();"><span>
-	&laquo	Africa Online 	&raquo</span></a></p>
+<ul class="dropdown-menu royal2"> 
+<center><li><button onclick="newsChannel(); salmandai();" id="demoi"
+ style="border-color: white" type="button" class="btn btn-secondary btn-sm">📰 News Channel</button>
+	
+	<!--<li><button onclick="salmandaii();" id="demoii"
+	 style="border-color: white" type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#myModal5"
+>🐒 Tourism</button></li>
+
+<li ><button onclick="salmandaiii();" id="demoiii"
+ style="border-color: white" type="button" class="btn btn-secondary btn-sm"
+	 onclick="alert('This Site is still under development.');">📚 Education</button> </a></li>-->
+
+<li><button onclick="programming(); salmandaiv();" id="demoiv"
+ style="border-color: white" type="button" class="btn btn-secondary btn-sm">📟 Programming</button></li>
+
+<li><button onclick="linkWikipedia(); salmandav();" id="demov"
+ style="border-color: white" type="button" class="btn btn-secondary btn-sm"><img style="width: 12pt; border: none" src="wikipeadia.png"/> Wikipeadia</button></li>
+
+<li><button onclick="salmandaMusiq(); salmandavi();" id="demovi"
+ style="border-color: white" type="button" class="btn btn-secondary btn-sm">🎼 My Music</button></li>
+
+<li><button onclick="linkChatGPT(); salmandavii();" id="demovii"
+ style="border-color: white" type="button" class="btn btn-secondary btn-sm"><img style="width: 12pt; border: none" src="chatGPT.png"/> ChatGPT</button></li>
+
+<li><button onclick="movieChannel(); salmandaviii();" id="demoviii"
+ style="border-color: white" type="button" class="btn btn-secondary btn-sm">🎬 Movie Channel</button></li>
+
+<li><button onclick="royalFM(); salmandaix();" id="demoix"
+ style="border-color: white" type="button" class="btn btn-secondary btn-sm"><img style="width: 12pt; border: none" src="Royal.png"/> RoyalFM</button></li>
+
+<li><button onclick="seer(); salmandax();" id="demox"
+ style="border-color: white" type="button" class="btn btn-secondary btn-sm"><img style=" width: 12pt; border: none" src="Eye.png"/> Seer</button></li>
+</center>
+</ul> 
+</div> 
+</div> 
+<!--End dropup menu-->
+
+<h2 class="level">Africa Online</h2>
+
 </div>
 </div>
 </div>
@@ -314,6 +485,10 @@ You will need to enable Javascript to run this programme.
 <p>&copy2024 | All Rights Reserved | SM Technology</p>
 </div>
 
-<script src="Responsive.js"></script>
+<script src="Responsive.js"defer></script>
+
+<script src="jquery.min.js"defer></script>
+
+<script src="bootstrap.min.js"defer></script>
 </body>
 </html>
